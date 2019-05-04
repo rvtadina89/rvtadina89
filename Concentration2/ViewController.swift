@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     @IBAction func touchCard(_ sender: UIButton) {
         //print("sorry")
-        flipCount += 1
+        flipCount += 2
         //flipCard(withEmoji: "😅", on: sender)
         if let cardNumber = cardButtons.index(of: sender) {
             //print("cardNumber = \(cardNumber)")
